@@ -1,0 +1,9 @@
+fun myFunction(condition)
+{
+	var a = 1;
+	if (condition)
+	{
+		var a = a;
+	}
+	return a;
+}

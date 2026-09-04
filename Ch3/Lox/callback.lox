@@ -1,0 +1,9 @@
+fun caller(callback) {
+	callback();
+}
+
+fun myCallback() {
+	print "Callback success!";
+}
+
+caller(myCallback);
