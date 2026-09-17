@@ -1,0 +1,4 @@
+print("test 1");
+print(true ? "ternary is true" : "ternary is false");
+print("test 2");
+print(false ? "ternary is true" : "ternary is false");
