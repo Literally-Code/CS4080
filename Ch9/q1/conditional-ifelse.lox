@@ -1,0 +1,10 @@
+var condition = true;
+
+if (condition)
+{
+	print "Condition was true";
+}
+else
+{
+	print "Condition was false";
+}

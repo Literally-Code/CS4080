@@ -1,0 +1,25 @@
+class True {
+    choose(thenBranch, elseBranch) {
+        return thenBranch();
+    }
+}
+
+class False {
+    choose(thenBranch, elseBranch) {
+        return elseBranch();
+    }
+}
+
+fun doIfTrue()
+{
+	print "Condition was true";
+}
+
+fun doIfFalse()
+{
+	print "Condition was false";
+}
+
+var condition = True();
+
+condition.choose(doIfTrue, doIfFalse);
