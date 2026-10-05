@@ -1,6 +1,5 @@
-fun scope(a) {
-  var a = "local";
-  print(a);
+fun myfunc() {
+    var localvar = 11;
 }
 
-scope("non-local");
+myfunc();

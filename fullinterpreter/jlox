@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+BASE_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+exec java -cp "$BASE_DIR/build" com.craftinginterpreters.lox.Lox "$@"
