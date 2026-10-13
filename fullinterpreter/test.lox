@@ -1,5 +1,15 @@
-fun myfunc() {
-    var localvar = 11;
+class Bacon {
+  eat() {
+    print "Crunch crunch crunch!";
+  }
 }
 
-myfunc();
+var instance = Bacon();
+instance.a = 10;
+
+fun main() {
+    instance.eat();
+    print(instance.a);
+}
+
+main();

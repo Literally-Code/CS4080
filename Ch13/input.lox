@@ -1,0 +1,5 @@
+print("Please provide input:");
+var in = input();
+
+print("User input: ");
+print(in);
