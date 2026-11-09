@@ -1,0 +1,15 @@
+{
+  var outer = "outer";
+  var middle = "middle";
+
+  {
+    var inner = "inner";
+    var middle = "shadowed middle";
+    print outer;
+    print middle;
+    print inner;
+  }
+
+  print outer;
+  print middle;
+}

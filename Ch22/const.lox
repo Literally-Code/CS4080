@@ -1,0 +1,5 @@
+const answer = 42;
+print answer;
+
+// Expected result: compile error at the assignment below.
+answer = 43;
