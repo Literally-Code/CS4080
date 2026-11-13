@@ -1,0 +1,3 @@
+print sqrt(81);
+print abs(-12.5);
+print len("native functions");

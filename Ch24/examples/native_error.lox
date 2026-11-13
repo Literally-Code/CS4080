@@ -1,0 +1,1 @@
+print sqrt("not a number");
