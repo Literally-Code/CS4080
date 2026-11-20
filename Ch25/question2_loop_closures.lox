@@ -1,0 +1,17 @@
+var first = nil;
+var second = nil;
+var third = nil;
+
+for (var i = 0; i < 3; i = i + 1) {
+  fun show() {
+    print i;
+  }
+
+  if (i == 0) first = show;
+  if (i == 1) second = show;
+  if (i == 2) third = show;
+}
+
+first();
+second();
+third();

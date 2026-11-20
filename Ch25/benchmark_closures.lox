@@ -1,0 +1,15 @@
+fun outer(a, b, c) {
+  fun inner() {
+    return a + b + c;
+  }
+  return inner;
+}
+
+var start = clock();
+var total = 0;
+for (var i = 0; i < 10000; i = i + 1) {
+  var closure = outer(i, i, i);
+  total = total + closure();
+}
+print total;
+print clock() - start;
